@@ -1,0 +1,6 @@
+#!/bin/bash
+
+bn=`date +%s`
+ps2pdf "$1" "$2"/print_$bn.pdf
+
+exit 0
